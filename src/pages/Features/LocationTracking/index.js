@@ -6,6 +6,7 @@ import LocationTrackingHowItWork from "../../../components/SharedElements/Locati
 import LocationTrackingRoutes from "../../../components/SharedElements/LocationTrackingRoutes";
 import LocationTrackingAlerts from "../../../components/SharedElements/LocationTrackingAlerts";
 import CommonOpportunities from "../../../components/SharedElements/CommonOpportunities";
+import Contact from "../../../components/SharedElements/Contact";
 import Header from "./Header";
 import LocationTrackingHeatMap from "../../../components/SharedElements/LocationTrackingHeatMap";
 import CustomHelmet from "../../../components/Service/CustomHelmet";
@@ -47,7 +48,8 @@ class Index extends Component {
         <br/><br/>
         <CommonOpportunities />  
         <LocationTrackingBenefits />
-          
+        <Contact />
+        <br/><br/>
       </React.Fragment>
     );
   }

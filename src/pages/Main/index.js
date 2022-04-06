@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../../../node_modules/react-modal-video/scss/modal-video.scss";
+import AOS from "aos";
 
 import img1 from "../../assets/images/app/main_screen.png";
 import img2 from "../../assets/images/app/devices2.png";
 
-import MainDescription from "../../components/SharedElements/MainDescription";
+import MainHowItWork from "../../components/SharedElements/MainHowItWork";
 import MainIndustries from '../../components/SharedElements/MainIndustries'
 import MainFeatures from '../../components/SharedElements/MainFeatures'
 import Trial2 from '../../components/SharedElements/Trial2'
@@ -17,14 +17,14 @@ ReactGA.initialize('G-PSG8RPDW3G');
 
 
 class Main extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isOpen: false,
-    };
+  constructor(props, context) {
+    super(props, context);
+    AOS.init();
   }
 
   componentDidMount() {
+    AOS.refresh();
+    document.getElementById("top-menu").classList.add("nav-dark");
     document.body.classList = "";
     window.addEventListener("scroll", this.scrollNavigation, true);
   }
@@ -42,7 +42,7 @@ class Main extends Component {
       document.getElementById("topnav").classList.remove("nav-sticky");
     }
   };
-
+  
   render() {
     return (
       <React.Fragment>
@@ -80,11 +80,11 @@ class Main extends Component {
               </Col>
             </Row>
           </Container>
-          </section>
-          <MainDescription />
-          <MainFeatures />
+          </section> 
+          <MainFeatures /> 
+          <MainHowItWork />
           <MainIndustries />
-          <Trial2 />
+          <Trial2 /> 
         
       </React.Fragment>
     );

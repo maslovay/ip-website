@@ -15,6 +15,7 @@ import {
 import classnames from "classnames";
 import SectionTitle from "../../components/Shared/SectionTitle";
 import SmartGlassesGallery from "../../components/SharedElements/SmartGlassesGallery"
+import Contact from "../../components/SharedElements/Contact"
 import "flatpickr/dist/themes/material_blue.css";
 
 import CustomHelmet from "../../components/Service/CustomHelmet";
@@ -225,6 +226,8 @@ class Pricing extends Component {
             )}
             </Row>
             <SmartGlassesGallery />
+            <Contact />
+            <br/><br/>
           </Container>
       </React.Fragment>
     );

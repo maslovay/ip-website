@@ -51,13 +51,11 @@ class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        
-          
-        <Container className="mt-100 mt-60">
+        <Container>
             <Row className="align-items-center">
               <Col
-                lg={5}
-                md={{ size: 6, order: 1 }}
+                lg={15}
+                md={{ size: 12, order: 1 }}
                 xs={{ order: 2 }}
                 className="mt-4 mt-sm-0 pt-2 pt-sm-0"
               >
@@ -69,7 +67,7 @@ class Contact extends Component {
                   {i18next.t('contact.contact_us')}
                 </h4>
                 <Card className="custom-form rounded shadow border-0">
- 
+
                   <CardBody>
                     <div id="message"></div>
                     <Alert
@@ -90,7 +88,7 @@ class Contact extends Component {
                       id="contact-form"
                     >
                       <Row>
-                        <Col lg={6}>
+                        <Col md={4}>
                           <div className="mb-3">
                             <Label className="form-label">
                               {i18next.t('contact.your_name')} <span className="text-danger">*</span>
@@ -113,7 +111,7 @@ class Contact extends Component {
                             />
                           </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={4}>
                           <div className="mb-3">
                             <Label className="form-label">
                               {i18next.t('contact.your_email')} <span className="text-danger">*</span>
@@ -136,7 +134,7 @@ class Contact extends Component {
                             />
                           </div>
                         </Col>
-                        <Col md={12}>
+                        <Col md={4}>
                           <div className="mb-3">
                             <Label className="form-label">{i18next.t('contact.your_phone')}</Label>
                             <div className="form-icon position-relative">
@@ -160,7 +158,7 @@ class Contact extends Component {
                         </Col>
                         <Col lg={12}>
                           <div className="mb-3">
-                            <Label className="form-label">{i18next.t('contact.comments')}</Label>
+                            <Label className="form-label">{i18next.t('contact.request')}</Label>
                             <div className="form-icon position-relative">
                               <i>
                                 <FeatherIcon
@@ -172,7 +170,7 @@ class Contact extends Component {
                             <textarea
                               name="comments"
                               id="comments"
-                              rows="4"
+                              rows="2"
                               className="form-control ps-5"
                               placeholder={i18next.t('contact.your_message')}
                               onChange={(event) => {this.setState({message: event.target.value})}}
@@ -196,56 +194,6 @@ class Contact extends Component {
                     </Form>
                   </CardBody>
                 </Card>
-              </Col>
-
-              <Col lg={6} md={{ size: 6, order: 1 }} xs={{ order: 1 }}>
-                <div className="title-heading ms-lg-4">
-                  <h4 className="mb-4">{i18next.t('contact.about_us_header')}</h4>
-                  <p className="text-muted">
-                    {i18next.t('contact.about_us_description')}
-                  </p>
-                  <div className="d-flex contact-detail align-items-center mt-3">
-                    <div className="icon">
-                      <i>
-                        <FeatherIcon
-                          icon="mail"
-                          className="fea icon-m-md text-dark me-3"
-                        />
-                      </i>
-                    </div>
-                    <div className="flex-1 content">
-                      <Link
-                        to="#"
-                        onClick={this.sendMail}
-                        className="text-primary "
-                      >
-                        &nbsp;&nbsp;&nbsp; info@inpres.com
-                      </Link>
-                    </div>
-                  </div>
-                  <ul className="list-unstyled social-icon mb-0 mt-4"> 
-                   <li className="list-inline-item">
-                      <a href="https://www.youtube.com/channel/UC_d8J05AN0-ThyoGfWW8S3g" className="rounded">
-                        <i>
-                          <FeatherIcon
-                            icon="youtube"
-                            className="fea icon-sm fea-social"
-                          />
-                        </i>
-                      </a>
-                    </li>{" "}
-                    <li className="list-inline-item">
-                      <Link to="https://www.youtube.com/channel/UC_d8J05AN0-ThyoGfWW8S3g" className="rounded">
-                        <i>
-                          <FeatherIcon
-                            icon="instagram"
-                            className="fea icon-sm fea-social"
-                          />
-                        </i>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
               </Col>
             </Row>
           </Container>

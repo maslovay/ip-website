@@ -174,9 +174,12 @@ class Topbar extends Component {
       <header id="topnav" className="defaultscroll sticky">
         <Container>
           <div>
-            <a className="logo" href="/">
+            <Link className="logo" to="/">
+                <img src={logodark} id="brandLogo" height="24" alt="Inpres logo" />
+              </Link>
+            {/* <a className="logo" href="/">
               <img src={logodark} height="24" className="logo-light-mode" alt="INPRES logo" />
-            </a>
+            </a> */}
             {/* {this.props.hasDarkTopBar ? (
                 <a className="logo" href="/">
                   <img src={logodark} height="24" className="logo-light-mode" alt="" />
