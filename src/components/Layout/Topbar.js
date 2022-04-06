@@ -197,7 +197,7 @@ class Topbar extends Component {
                 
                 <div className="buy-button">
                   <a
-                    href="https://portal.inpres.com"
+                    href="https://portal.inpres.com/register"
                     target="_blank"
                     rel="noopener noreferrer"
                     id="buyButton"
@@ -207,7 +207,7 @@ class Topbar extends Component {
                   </a>
                   &nbsp;
                   <a
-                    href="https://portal.inpres.com"
+                    href="https://portal.inpres.com/login"
                     target="_blank"
                     rel="noopener noreferrer"
                     id="buyButton"
