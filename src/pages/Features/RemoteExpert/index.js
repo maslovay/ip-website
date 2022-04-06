@@ -14,12 +14,12 @@ import RemoteExpertBenefits from "../../../components/SharedElements/RemoteExper
 import RemoteExpertEffect from "../../../components/SharedElements/RemoteExpertEffect"
 import Trial2 from "../../../components/SharedElements/Trial2"
 import img from "../../../assets/images/city_banner.png";
+import i18next from 'i18next';
+import CustomHelmet from "../../../components/Service/CustomHelmet";
 
 import ReactGA from 'react-ga';
-import i18next from 'i18next';
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.remoteExpert');
 
 class RemoteExpert extends Component {
   constructor(props, context) {
@@ -73,6 +73,7 @@ class RemoteExpert extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="remoteExpert" />
           <section
           className="bg-half-170 d-table w-100"
           style={{ background: `url("${img}") center center` }}

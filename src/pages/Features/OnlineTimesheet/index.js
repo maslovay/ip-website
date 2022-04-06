@@ -7,16 +7,13 @@ import "../../../../node_modules/aos/dist/aos.css";
 import Trial2 from "../../../components/SharedElements/Trial2";
 import OnlineTimesheetAlerts from "../../../components/SharedElements/OnlineTimesheetAlerts";
 import OnlineTimeSheetHowItWork from "../../../components/SharedElements/OnlineTimeSheetHowItWork"
-
 import "flatpickr/dist/themes/material_blue.css";
-
 import Section from "./Section";
+import CustomHelmet from "../../../components/Service/CustomHelmet";
 
 import ReactGA from 'react-ga';
-import i18next from 'i18next';
-document.title = i18next.t('company.pagetitle');
-ReactGA.initialize('G-MFNB4616NN');
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.timeTracking');
+ReactGA.initialize('G-PSG8RPDW3G');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class TimeTracking extends Component {
   constructor(props, context) {
@@ -48,6 +45,7 @@ class TimeTracking extends Component {
   render() {
     return (
       <React.Fragment>
+          <CustomHelmet name="onlineTimesheet" />
           <Section />
           <OnlineTimeSheetHowItWork />
           <Trial2/>

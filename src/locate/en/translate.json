@@ -1,17 +1,51 @@
 {
     "translations": {
-        "pageNames": {
-            "name": "Inpres",
-            "main": "assistance and monitoring mobile employees",
-            "pricing": "pricing",
-            "glasses": "smart glasses",
-            "features": {
-                "clientService": "client service",
-                "locationTracking": "location tracking",
-                "onlineTimesheet": "online tracking",
-                "remoteExpert": "remote expert",
-                "tagsTracking": "tags tracking",
-                "timeTracking": "time tracking"
+        "pageData": {
+            "appName": "Inpres",
+            "main":{
+                "main": "assistance and monitoring of mobile employees",
+                "description" : "assistance and monitoring of mobile employees",
+                "keywords" :"inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "pricing": {
+                "main": "pricing plans",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "glasses": {
+                "main": "smart glasses",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "clientService": {
+                "main": "client service measure with AI",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "locationTracking": {
+                "main": "employees location tracking",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "onlineTimesheet": {
+                "main": "online timesheets",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "remoteExpert":{
+                "main": "remote expert",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "tagsTracking": {
+                "main": "QR code tags tracking",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
+            },
+            "timeTracking": {
+                "main": "time tracking",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             },
             "industries": {
                 "cleaning": "cleaning",
@@ -20,8 +54,12 @@
                 "landscaping": "landscaping",
                 "courier": "courier",
                 "oilgas": "oil&gas",
-                "other": "other",
-                "industries": "industries"
+                "other": "other"
+            },
+            "industriesCommon": {
+                "main": "industries",
+                "description" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
+                "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera"
             }
         },
         "common": {
@@ -76,7 +114,7 @@
         },
         "home": {
             "background1": "/images/family_big.png",
-            "title1": "Service for assistance and monitoring mobile employees",
+            "title1": "Service for inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
             "description1": "Service for assistance and monitor mobile employees",
 
             "howItWork":{

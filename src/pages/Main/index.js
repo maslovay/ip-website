@@ -10,11 +10,11 @@ import MainIndustries from '../../components/SharedElements/MainIndustries'
 import MainFeatures from '../../components/SharedElements/MainFeatures'
 import Trial2 from '../../components/SharedElements/Trial2'
 
+import CustomHelmet from "../../components/Service/CustomHelmet";
 import i18next from 'i18next';
 import ReactGA from 'react-ga';
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.main');
-ReactGA.initialize('G-MFNB4616NN');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('G-PSG8RPDW3G');
+
 
 class Main extends Component {
   constructor(props) {
@@ -46,6 +46,7 @@ class Main extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="main" />
         <section
           className="bg-half-170 d-table w-100 overflow-hidden"
           id="home"

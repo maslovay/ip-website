@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import SmartGlassesDescription from "../../components/SharedElements/SmartGlassesDescription";
 import SmartGlassesGallery from "../../components/SharedElements/SmartGlassesGallery";
+import CustomHelmet from "../../components/Service/CustomHelmet";
 
 import ReactGA from 'react-ga';
-import i18next from 'i18next';
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.glasses');
 
 class Index extends Component {
   componentDidMount() {
@@ -31,6 +30,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="glasses" />
         {/* <Section />
         <SmartGlassesFeature /> */}
         <SmartGlassesDescription />

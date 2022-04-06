@@ -17,18 +17,17 @@ import SectionTitle from "../../components/Shared/SectionTitle";
 import SmartGlassesGallery from "../../components/SharedElements/SmartGlassesGallery"
 import "flatpickr/dist/themes/material_blue.css";
 
+import CustomHelmet from "../../components/Service/CustomHelmet";
 import ReactGA from 'react-ga';
 import i18next from 'i18next';
-
-document.title = i18next.t('pageNames.name')+ " - "+ i18next.t('pageNames.pricing');
-ReactGA.initialize('G-MFNB4616NN');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.initialize('G-PSG8RPDW3G');
 
 class Pricing extends Component {
   constructor(props, context) {
     super(props, context);
     AOS.init();
     this.state = {
+      test: "pricing",
       pricings: 
       [
         {
@@ -109,6 +108,7 @@ class Pricing extends Component {
   render() {
     return (
       <React.Fragment>
+          <CustomHelmet name="pricing" />
           <Container className="mt-100 mt-60">
             <SectionTitle
               title={i18next.t('pricing.header')}
@@ -166,6 +166,7 @@ class Pricing extends Component {
               md="6"
               xs="12"
               className="mt-4 pt-2"
+              key={pricing.id}
             >
             <Card
               name="pricingbox"

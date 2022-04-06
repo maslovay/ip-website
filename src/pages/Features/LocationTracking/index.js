@@ -7,13 +7,11 @@ import LocationTrackingRoutes from "../../../components/SharedElements/LocationT
 import LocationTrackingAlerts from "../../../components/SharedElements/LocationTrackingAlerts";
 import CommonOpportunities from "../../../components/SharedElements/CommonOpportunities";
 import Header from "./Header";
-
-
-import i18next from 'i18next';
-import ReactGA from 'react-ga';
 import LocationTrackingHeatMap from "../../../components/SharedElements/LocationTrackingHeatMap";
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.locationTracking');
-ReactGA.initialize('G-MFNB4616NN');
+import CustomHelmet from "../../../components/Service/CustomHelmet";
+
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Index extends Component {
@@ -40,6 +38,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="locationTracking" />
         <Header />
         <LocationTrackingHowItWork />
         <LocationTrackingRoutes />

@@ -10,12 +10,13 @@ import TagsTrackingAdmin from "../../../components/SharedElements/TagsTrackingAd
 import TagsTrackingUseCases from "../../../components/SharedElements/TagsTrackingUseCases"
 import Trial2 from "../../../components/SharedElements/Trial2"
 import img from "../../../assets/images/city_banner.png";
+import CustomHelmet from "../../../components/Service/CustomHelmet";
+import i18next from 'i18next';
 
 import ReactGA from 'react-ga';
-import i18next from 'i18next';
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.remoteExpert');
+
 
 class Index extends Component {
   constructor(props, context) {
@@ -69,10 +70,10 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="tagsTracking"/>
           <section
           className="bg-half-170 d-table w-100"
           style={{ background: `url("${img}") center center` }}
-
         >
           <div className="bg-overlay"></div>
           <Container>

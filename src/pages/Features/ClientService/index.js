@@ -4,12 +4,10 @@ import "../../../../node_modules/react-modal-video/scss/modal-video.scss";
 import Trial from "../../../components/SharedElements/Trial";
 import ClientServiceAdvantages from "../../../components/SharedElements/ClientServiceAdvantages";
 import Header from "./Header";
+import CustomHelmet from "../../../components/Service/CustomHelmet";
 
-
-import i18next from 'i18next';
 import ReactGA from 'react-ga';
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.locationTracking');
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Index extends Component {
@@ -36,6 +34,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="clientService" />
         <Header />
         <ClientServiceAdvantages />
         <Trial />

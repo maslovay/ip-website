@@ -13,7 +13,7 @@ import i18next from 'i18next';
 import ReactGA from 'react-ga';
 
 document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.constructing');
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class CVReverseVendingMachine  extends Component {

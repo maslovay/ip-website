@@ -11,13 +11,12 @@ import Trial2 from "../../../components/SharedElements/Trial2"
 import CommonOpportunities from "../../../components/SharedElements/CommonOpportunities"
 import RemoteExpertBenefits from "../../../components/SharedElements/RemoteExpertBenefits"
 import img from "../../../assets/images/city_banner.png";
-
 import "flatpickr/dist/themes/material_blue.css";
+import i18next from 'i18next';
+import CustomHelmet from "../../../components/Service/CustomHelmet";
 
 import ReactGA from 'react-ga';
-import i18next from 'i18next';
-document.title = i18next.t('pageNames.name') + " - " + i18next.t('pageNames.industries.industries');
-ReactGA.initialize('G-MFNB4616NN');
+ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class Index extends Component {
@@ -61,6 +60,7 @@ class Index extends Component {
   render() {
     return (
       <React.Fragment>
+        <CustomHelmet name="industriesCommon" />
           <section
           className="bg-half-170 d-table w-100"
           style={{ background: `url("${img}") center center` }}
