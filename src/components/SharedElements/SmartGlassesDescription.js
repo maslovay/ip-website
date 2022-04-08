@@ -39,15 +39,12 @@ class SmartGlassesDescription extends Component {
                 <img src={drone} className="img-fluid" alt="" />
               </Col>
             </Row>
-
-            {/* section title */}
             <SectionTitle
-              title="Awesome Features"
-              desc=" that can provide everything you need to generate awareness, drive traffic, connect."
+              title={i18next.t('smartGlasses.features.title')}
+              desc={i18next.t('smartGlasses.features.description')}
             />
 
             <Row>
-              {/* key feature */}
               <KeyFeatureBox keyfeatures={this.state.keyfeatures} />
             </Row>
           </Container>

@@ -16,18 +16,18 @@ class TagsTrackingHowItWork extends Component {
       processes: [
         {
           id: 1,
-          title: i18next.t('locationtracking.howItWork.step1'),
-          desc: i18next.t('locationtracking.howItWork.step1Description'),  
+          title: i18next.t('tagsTracking.howItWork.step1'),
+          desc: i18next.t('tagsTracking.howItWork.step1Description'),  
         },
         {
           id: 2,
-          title: i18next.t('locationtracking.howItWork.step2'),
-          desc: i18next.t('locationtracking.howItWork.step2Description'),  
+          title: i18next.t('tagsTracking.howItWork.step2'),
+          desc: i18next.t('tagsTracking.howItWork.step2Description'),  
         },
         {
           id: 3,
-          title: i18next.t('locationtracking.howItWork.step3'),
-          desc: i18next.t('locationtracking.howItWork.step3Description'),  
+          title: i18next.t('tagsTracking.howItWork.step3'),
+          desc: i18next.t('tagsTracking.howItWork.step3Description'),  
         },
       ],
       works: [
@@ -47,8 +47,8 @@ class TagsTrackingHowItWork extends Component {
         <section className="section">
           <Container>
             <SectionTitle
-              title={i18next.t('locationtracking.howItWork.title')}
-              desc={i18next.t('locationtracking.howItWork.description')}
+              title={i18next.t('tagsTracking.howItWork.title')}
+              desc={i18next.t('tagsTracking.howItWork.description')}
             />
 
             <Row>

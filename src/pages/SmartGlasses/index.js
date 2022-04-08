@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import SmartGlassesDescription from "../../components/SharedElements/SmartGlassesDescription";
 import SmartGlassesGallery from "../../components/SharedElements/SmartGlassesGallery";
 import CustomHelmet from "../../components/Service/CustomHelmet";
+import MobileAppShowCase from "../../components/SharedElements/MobileAppShowCase";
+import RemoteExpertEffect from "../../components/SharedElements/RemoteExpertEffect";
 
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-PSG8RPDW3G');
@@ -31,10 +33,11 @@ class Index extends Component {
     return (
       <React.Fragment>
         <CustomHelmet name="glasses" />
-        {/* <Section />
-        <SmartGlassesFeature /> */}
+        {/* <Section />*/}
         <SmartGlassesDescription />
         <SmartGlassesGallery />
+        <MobileAppShowCase /> 
+        <RemoteExpertEffect />
       </React.Fragment>
     );
   }

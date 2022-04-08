@@ -11,7 +11,8 @@ class LocationTrackingAlerts extends Component {
       features: [
         { title: i18next.t('locationtracking.alerts.bullit1') },
         { title: i18next.t('locationtracking.alerts.bullit2') },
-        { title: i18next.t('locationtracking.alerts.bullit3') }
+        { title: i18next.t('locationtracking.alerts.bullit3') },
+        { title: i18next.t('locationtracking.alerts.bullit4') }
       ]
     };
   }

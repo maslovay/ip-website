@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import AOS from "aos";
 import "../../../../node_modules/aos/dist/aos.css";
 import Trial2 from "../../../components/SharedElements/Trial2";
-import TimeTrackingHowItWork from "../../../components/SharedElements/TimeTrackingHowItWork"
+import TimeTrackingHowItWork from "../../../components/SharedElements/TimeTrackingHowItWork";
+import TimeTrackingIndicators from "../../../components/SharedElements/TimeTrackingIndicators";
+
 import "flatpickr/dist/themes/material_blue.css";
 import Section from "./Section";
 import CustomHelmet from "../../../components/Service/CustomHelmet";
@@ -43,6 +45,7 @@ class TimeTracking extends Component {
       <React.Fragment>
           <CustomHelmet name="timeTracking" />
           <Section />
+          <TimeTrackingIndicators />
           <TimeTrackingHowItWork />
           <Trial2/>
       </React.Fragment>

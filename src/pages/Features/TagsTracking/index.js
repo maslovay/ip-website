@@ -6,7 +6,7 @@ import { Col, Container,Row } from "reactstrap";
 import "flatpickr/dist/themes/material_blue.css";
 
 import TagsTrackingHowItWork from "../../../components/SharedElements/TagsTrackingHowItWork"
-import TagsTrackingAdmin from "../../../components/SharedElements/TagsTrackingAdmin"
+import OnlineTimesheetAlerts from "../../../components/SharedElements/OnlineTimesheetAlerts"
 import TagsTrackingUseCases from "../../../components/SharedElements/TagsTrackingUseCases"
 import Trial2 from "../../../components/SharedElements/Trial2"
 import img from "../../../assets/images/city_banner.png";
@@ -89,9 +89,10 @@ class Index extends Component {
           </Container>
           </section>
           <TagsTrackingHowItWork />
-          <TagsTrackingAdmin />
           <TagsTrackingUseCases />
           <Trial2 />
+          <OnlineTimesheetAlerts />
+          <br/><br/>
       </React.Fragment>
     );
   }

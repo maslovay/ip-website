@@ -40,7 +40,6 @@ class TagsTrackingUseCases extends Component {
           <Container>
             <SectionTitle
               title={i18next.t('tagsTracking.useCases.title')}
-              desc={i18next.t('tagsTracking.useCases.description')}
             />
             <Feature featureArray={this.state.features} />
           </Container>

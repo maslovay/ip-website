@@ -19,9 +19,9 @@ class Header extends Component {
                   <h1 className="heading mb-3">
                     {i18next.t('locationtracking.main.title')}
                   </h1>
-                  <p className="para-desc text-muted">
+                  {/* <p className="para-desc text-muted">
                     {i18next.t('locationtracking.main.description')}
-                  </p>
+                  </p> */}
                 </div>
               </Col>
             </Row>

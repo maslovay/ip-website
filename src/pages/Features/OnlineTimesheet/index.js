@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-
-
 import AOS from "aos";
 import "../../../../node_modules/aos/dist/aos.css";
-
 import Trial2 from "../../../components/SharedElements/Trial2";
 import OnlineTimesheetAlerts from "../../../components/SharedElements/OnlineTimesheetAlerts";
-import OnlineTimeSheetHowItWork from "../../../components/SharedElements/OnlineTimeSheetHowItWork"
+import OnlineTimeSheetHowItWork from "../../../components/SharedElements/OnlineTimeSheetHowItWork";
+import TimeTrackingIndicators from "../../../components/SharedElements/TimeTrackingIndicators";
 import "flatpickr/dist/themes/material_blue.css";
 import Section from "./Section";
 import CustomHelmet from "../../../components/Service/CustomHelmet";
@@ -48,9 +46,10 @@ class TimeTracking extends Component {
           <CustomHelmet name="onlineTimesheet" />
           <Section />
           <OnlineTimeSheetHowItWork />
-          <Trial2/>
           <OnlineTimesheetAlerts />
           <br/><br/>
+          <Trial2/>
+          <TimeTrackingIndicators />
       </React.Fragment>
     );
   }

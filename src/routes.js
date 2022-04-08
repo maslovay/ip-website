@@ -10,14 +10,6 @@ const LocationTracking = React.lazy(() => import("./pages/Features/LocationTrack
 const OnlineTimesheet = React.lazy(() => import("./pages/Features/OnlineTimesheet/index"));
 const TagsTracking = React.lazy(() => import("./pages/Features/TagsTracking/index"));
 const TimeTracking = React.lazy(() => import("./pages/Features/TimeTracking/index"));
-
-const Constructing = React.lazy(() => import("./pages/Industries/Constructing/index"));
-const Courier = React.lazy(() => import("./pages/Industries/Courier/index"));
-const Landscaping = React.lazy(() => import("./pages/Industries/Landscaping/index"));
-const Manufactoring = React.lazy(() => import("./pages/Industries/Manufactoring/index"));
-const Cleaning = React.lazy(() => import("./pages/Industries/Cleaning/index"));
-const OilGas = React.lazy(() => import("./pages/Industries/OilGas/index"));
-const Other = React.lazy(() => import("./pages/Industries/Other/index"));
 const Industries = React.lazy(() => import("./pages/Industries/Common/index"));
 
 const Glasses = React.lazy(() => import("./pages/SmartGlasses/index"));
@@ -36,14 +28,6 @@ const routes = [
   { path: "/features/online-timesheet", component: OnlineTimesheet },
   { path: "/features/tags-tracking", component: TagsTracking },
   { path: "/features/time-tracking", component: TimeTracking },
-
-  { path: "/industries/constructing", component: Constructing },
-  { path: "/industries/courier", component: Courier },
-  { path: "/industries/landscaping", component: Landscaping },
-  { path: "/industries/manufacturing", component: Manufactoring },
-  { path: "/industries/cleaning", component: Cleaning },
-  { path: "/industries/oil-gas", component: OilGas },
-  { path: "/industries/other-industries", component: Other },
   { path: "/industries/inpres-industries", component: Industries },
 
   { path: "/inpres-glasses", component: Glasses },

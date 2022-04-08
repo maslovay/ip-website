@@ -9,9 +9,9 @@ class OnlineTimesheetAlerts extends Component {
     super(props);
     this.state = {
       features: [
-        { title: i18next.t('locationtracking.routes.bullit1') },
-        { title: i18next.t('locationtracking.routes.bullit2') },
-        { title: i18next.t('locationtracking.routes.bullit3') }
+        { title: i18next.t('onlineTimesheet.alerts.bullit1') },
+        { title: i18next.t('onlineTimesheet.alerts.bullit2') },
+        { title: i18next.t('onlineTimesheet.alerts.bullit3') }
       ]
     };
   }
@@ -26,8 +26,8 @@ class OnlineTimesheetAlerts extends Component {
             <Col lg={6} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
               <div className="section-title ms-lg-5">
                 <SectionTitleLeft
-                  title={i18next.t('locationtracking.routes.title')}
-                  desc={i18next.t('locationtracking.routes.description')}
+                  title={i18next.t('onlineTimesheet.alerts.title')}
+                  desc={i18next.t('onlineTimesheet.alerts.description')}
                   features={this.state.features}
                   class=""
                 />

@@ -9,9 +9,6 @@ class LocationTrackingHeatMap extends Component {
     super(props);
     this.state = {
       features: [
-        { title: i18next.t('locationtracking.heatmap.bullit1') },
-        { title: i18next.t('locationtracking.heatmap.bullit2') },
-        { title: i18next.t('locationtracking.heatmap.bullit3') }
       ]
     };
   }

@@ -2,7 +2,6 @@
 import React, { Component } from "react";
 import "../../../../node_modules/react-modal-video/scss/modal-video.scss";
 import LocationTrackingBenefits from "../../../components/SharedElements/LocationTrackingBenefits";
-import LocationTrackingHowItWork from "../../../components/SharedElements/LocationTrackingHowItWork";
 import LocationTrackingRoutes from "../../../components/SharedElements/LocationTrackingRoutes";
 import LocationTrackingAlerts from "../../../components/SharedElements/LocationTrackingAlerts";
 import CommonOpportunities from "../../../components/SharedElements/CommonOpportunities";
@@ -41,7 +40,6 @@ class Index extends Component {
       <React.Fragment>
         <CustomHelmet name="locationTracking" />
         <Header />
-        <LocationTrackingHowItWork />
         <LocationTrackingRoutes />
         <LocationTrackingHeatMap />
         <LocationTrackingAlerts />
