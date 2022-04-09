@@ -5,12 +5,18 @@
       },
       {
         "route": "/industries/inpres-industries/index.html"
+      },
+      {
+        "route": "/features/remote-expert/index.html"
+      },
+      {
+        "route": "/pricing/index.html"
+      },
+      {
+        "route": "/pricing*",
+        "rewrite":"/pricing/index.html"
       }
     ],
-    "navigationFallback": {
-        "rewrite": "index.html",
-        "exclude": ["/static/media/*.{png,jpg,gif,svg}", "/static/css/*"]
-    },
     "responseOverrides": {
       "400": {
         "rewrite": "/404.html"
