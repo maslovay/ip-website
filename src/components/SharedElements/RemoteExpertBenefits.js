@@ -13,37 +13,37 @@ class RemoteExpertBenefits extends Component {
       features: [
         {
           id: 1,
-          icon: 'uil uil-edit-alt h1 text-primary',
+          icon: 'uil uil-user h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit1'),
           description: i18next.t('remoteExpert.benefits.benefit1description'),
         },
         {
           id: 2,
-          icon: 'uil uil-vector-square h1 text-primary',
+          icon: 'uil uil-clock h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit2'),
           description: i18next.t('remoteExpert.benefits.benefit2description'),
         },
         {
           id: 3,
-          icon: 'uil uil-file-search-alt h1 text-primary',
+          icon: 'uil uil-data-sharing h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit3'),
           description: i18next.t('remoteExpert.benefits.benefit3description'),
         },
         {
           id: 4,
-          icon: 'uil uil-airplay h1 text-primary',
+          icon: 'uil uil-shield-check h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit4'),
           description: i18next.t('remoteExpert.benefits.benefit4description'),
         },
         {
           id: 5,
-          icon: 'uil uil-calendar-alt h1 text-primary',
+          icon: 'uil uil-cog h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit5'),
           description: i18next.t('remoteExpert.benefits.benefit5description'),
         },
         {
           id: 6,
-          icon: 'uil uil-clock h1 text-primary',
+          icon: 'uil uil-cloud-computing h1 text-primary',
           title: i18next.t('remoteExpert.benefits.benefit6'),
           description: i18next.t('remoteExpert.benefits.benefit6description'),
         },

@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import { Container, Row, Col, Card, CardBody } from "reactstrap";
 import SectionTitle from "../Shared/SectionTitle";
 
-import img1 from "../../assets/images/icon/art-and-design.svg";
-import img2 from "../../assets/images/icon/smartphone.svg";
-import img3 from "../../assets/images/icon/clock.svg";
+import img1 from "../../assets/images/icon/user.svg";
+import img2 from "../../assets/images/icon/sand-clock.svg";
+import img3 from "../../assets/images/icon/location.svg";
+import img4 from "../../assets/images/icon/calendar.svg";
+import img5 from "../../assets/images/icon/chat.svg";
+import img6 from "../../assets/images/icon/ticket2.svg";
 
 import i18next from 'i18next';
 
@@ -35,21 +38,21 @@ class MainFeatures extends Component {
       },
       {
         id: 4,
-        img: img3,
+        img: img4,
         title: i18next.t('header.feature4'),
         desc: i18next.t('header.feature4description'),
         link: "/features/tags-tracking"
       },
       {
         id: 5,
-        img: img3,
+        img: img5,
         title: i18next.t('header.feature5'),
         desc: i18next.t('header.feature5description'),
         link: "/features/online-timesheet"
       },
       {
         id: 6,
-        img: img3,
+        img: img6,
         title: i18next.t('header.feature6'),
         desc: i18next.t('header.feature6description'),
         link: "/features/client-service-control"

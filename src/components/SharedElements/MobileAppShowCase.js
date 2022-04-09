@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
 import SectionTitleLeft from "../Shared/SectionTitleLeft";
 
-import app1 from "../../assets/images/app/1.png";
+import app1 from "../../assets/images/app.png";
 
 class MobileAppShowCase extends Component {
   constructor(props) {

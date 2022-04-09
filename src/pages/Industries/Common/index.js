@@ -10,7 +10,7 @@ import MainIndustries from "../../../components/SharedElements/MainIndustries"
 import Trial2 from "../../../components/SharedElements/Trial2"
 import CommonOpportunities from "../../../components/SharedElements/CommonOpportunities"
 import RemoteExpertBenefits from "../../../components/SharedElements/RemoteExpertBenefits"
-import img from "../../../assets/images/city_banner.png";
+import img from "../../../assets/images/landscaping.jpg";
 import "flatpickr/dist/themes/material_blue.css";
 import i18next from 'i18next';
 import CustomHelmet from "../../../components/Service/CustomHelmet";

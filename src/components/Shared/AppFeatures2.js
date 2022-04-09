@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 
 import SectionTitle from "./SectionTitle";
 import FeatureBox from "./feature-box";
-import featureImg from "../../assets/images/app/main_screen.png";
+import featureImg from "../../assets/images/app/classic02.png";
 import i18next from 'i18next';
 
 class AppFeatures2 extends Component {

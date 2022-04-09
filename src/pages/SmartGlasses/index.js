@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SmartGlassesDescription from "../../components/SharedElements/SmartGlassesDescription";
+// import SmartGlassesDescription from "../../components/SharedElements/SmartGlassesDescription";
 import SmartGlassesGallery from "../../components/SharedElements/SmartGlassesGallery";
 import CustomHelmet from "../../components/Service/CustomHelmet";
 import MobileAppShowCase from "../../components/SharedElements/MobileAppShowCase";
@@ -34,7 +34,7 @@ class Index extends Component {
       <React.Fragment>
         <CustomHelmet name="glasses" />
         {/* <Section />*/}
-        <SmartGlassesDescription />
+        {/* <SmartGlassesDescription /> */}
         <SmartGlassesGallery />
         <MobileAppShowCase /> 
         <RemoteExpertEffect />

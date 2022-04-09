@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img2 from "../../assets/images/app/fundomat_qr.png";
+import img from "../../assets/images/remote_expert_inpres.jpeg";
 
 class RemoteExpertEffect extends Component {
 
@@ -24,7 +24,7 @@ class RemoteExpertEffect extends Component {
             <Col lg="6" md="5">
               <div className="position-relative">
                 <div className="text-center text-md-left">
-                  <img src={img2} className="img-fluid" alt="" />
+                  <img src={img} className="img-fluid shadow rounded" alt="" />
                 </div>
               </div>
             </Col>

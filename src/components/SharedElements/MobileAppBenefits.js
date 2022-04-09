@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import SectionTitle from "../Shared/SectionTitle";
 import FeatureBox from "./feature-box";
 
-import featureImg from "../../assets/images/app/feature.png";
+import featureImg from "../../assets/images/app.png";
 
 class MobileAppBenefits extends Component {
   constructor(props) {

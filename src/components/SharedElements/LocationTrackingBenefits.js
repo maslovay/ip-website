@@ -13,19 +13,19 @@ class LocationTrackingBenefits extends Component {
       features: [
         {
           id: 1,
-          icon: 'uil uil-edit-alt h1 text-primary',
+          icon: 'uil uil-clock-eight h1 text-primary',
           title: i18next.t('locationtracking.benefits.benefit1'),
           description: i18next.t('locationtracking.benefits.benefit1description'),
         },
         {
           id: 2,
-          icon: 'uil uil-vector-square h1 text-primary',
+          icon: 'uil uil-dollar-alt h1 text-primary',
           title: i18next.t('locationtracking.benefits.benefit2'),
           description: i18next.t('locationtracking.benefits.benefit2description'),
         },
         {
           id: 3,
-          icon: 'uil uil-file-search-alt h1 text-primary',
+          icon: 'uil uil-location-arrow h1 text-primary',
           title: i18next.t('locationtracking.benefits.benefit3'),
           description: i18next.t('locationtracking.benefits.benefit3description'),
         }

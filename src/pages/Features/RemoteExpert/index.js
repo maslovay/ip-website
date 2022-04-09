@@ -13,7 +13,7 @@ import RemoteExpertHowItWork from "../../../components/SharedElements/RemoteExpe
 import RemoteExpertBenefits from "../../../components/SharedElements/RemoteExpertBenefits"
 import RemoteExpertEffect from "../../../components/SharedElements/RemoteExpertEffect"
 import Trial2 from "../../../components/SharedElements/Trial2"
-import img from "../../../assets/images/city_banner.png";
+import img from "../../../assets/images/fpv_expert.png";
 import i18next from 'i18next';
 import CustomHelmet from "../../../components/Service/CustomHelmet";
 

@@ -45,8 +45,10 @@ class TimeTracking extends Component {
       <React.Fragment>
           <CustomHelmet name="timeTracking" />
           <Section />
-          <TimeTrackingIndicators />
+          <br/><br/>
           <TimeTrackingHowItWork />
+          <TimeTrackingIndicators />
+          <br/><br/>
           <Trial2/>
       </React.Fragment>
     );

@@ -1,6 +1,4 @@
-// React Basic and Bootstrap
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import {
   Container,
   Row,
@@ -12,13 +10,10 @@ import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-import single01 from "../../assets/images/single/01.jpg";
-import single02 from "../../assets/images/single/02.jpg";
-import single03 from "../../assets/images/single/03.jpg";
-import single04 from "../../assets/images/single/04.jpg";
-import single05 from "../../assets/images/single/05.jpg";
-import single06 from "../../assets/images/single/06.jpg";
-import single07 from "../../assets/images/single/07.jpg";
+import single01 from "../../assets/images/glasses/phone_with_camera_white.png";
+import single02 from "../../assets/images/glasses/glasses_2.jpeg";
+import single03 from "../../assets/images/glasses/glasses_3.jpeg";
+import single04 from "../../assets/images/glasses/glasses_3.jpeg";
 
 import i18next from 'i18next';
 
@@ -97,27 +92,7 @@ class SmartGlassesGallery extends Component {
                       alt="alt"
                     />
                   </div>
-                  <div>
-                    <img
-                      src={single05}
-                      className="img-fluid rounded"
-                      alt="alt"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src={single06}
-                      className="img-fluid rounded"
-                      alt="alt"
-                    />
-                  </div>
-                  <div>
-                    <img
-                      src={single07}
-                      className="img-fluid rounded"
-                      alt="alt"
-                    />
-                  </div>
+         
                 </Slider>
 
                 {/* Slider thumbnails */}
@@ -139,15 +114,6 @@ class SmartGlassesGallery extends Component {
                   </div>
                   <div>
                     <img src={single04} className="img-fluid" alt="" />
-                  </div>
-                  <div>
-                    <img src={single05} className="img-fluid" alt="" />
-                  </div>
-                  <div>
-                    <img src={single06} className="img-fluid" alt="" />
-                  </div>
-                  <div>
-                    <img src={single07} className="img-fluid" alt="" />
                   </div>
                 </Slider>
               </Col>
@@ -173,19 +139,31 @@ class SmartGlassesGallery extends Component {
                   </p>
                   <ul className="list-unstyled feature-list text-muted">
                     <li>
-                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.bullit1')}
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature1')}
                     </li>
                     <li>
-                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.bullit2')}
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature2')}
                     </li>
                     <li>
-                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.bullit3')}
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature3')}
+                    </li>
+                    <li>
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature4')}
+                    </li>
+                    <li>
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature5')}
+                    </li>
+                    <li>
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature6')}
+                    </li>
+                    <li>
+                      <i className="mdi mdi-check me-2"></i>{i18next.t('smartGlasses.gallery.feature7')}
                     </li>
                   </ul>
                   <div className="mt-4">
-                    <Link to="#" className="btn btn-primary">
+                    <a href="mailto:info@inpres.com?subject=Buy smart glasses" className="btn btn-primary">
                     {i18next.t('smartGlasses.gallery.button')}
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </Col>

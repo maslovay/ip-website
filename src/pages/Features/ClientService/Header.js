@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img from "../../../assets/images/fundomat_banner.png";
+import img from "../../../assets/images/emotions_banner.png";
 
 class Header extends Component {
   render() {

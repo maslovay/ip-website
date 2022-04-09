@@ -50,6 +50,7 @@ class TimeTracking extends Component {
           <br/><br/>
           <Trial2/>
           <TimeTrackingIndicators />
+          <br/><br/>
       </React.Fragment>
     );
   }

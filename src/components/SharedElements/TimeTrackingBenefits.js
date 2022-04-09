@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img2 from "../../assets/images/app/fundomat_qr.png";
+import img2 from "../../assets/images/app/classic02.png";
 
 class TimeTrackingBenefits extends Component {
 

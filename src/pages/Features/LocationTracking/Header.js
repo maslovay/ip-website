@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import i18next from 'i18next';
-import img from "../../../assets/images/fundomat_banner.png";
+import img from "../../../assets/images/tracking_banner.jpeg";
 
 class Header extends Component {
   render() {
@@ -12,6 +12,7 @@ class Header extends Component {
           style={{ background: `url(${img}) center center` }}
           id="home"
         >
+          <div className="bg-overlay"></div>
           <Container>
             <Row className="position-relative align-items-center pt-4">
               <Col lg={{ size: 7, offset: 5 }}>

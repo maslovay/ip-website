@@ -54,7 +54,7 @@
                 "landscaping": "landscaping",
                 "courier": "courier",
                 "oilgas": "oil&gas",
-                "other": "other"
+                "oi": "oi"
             },
             "industriesCommon": {
                 "main": "industries",
@@ -73,11 +73,11 @@
             "pricing": "Pricing",
             "glasses": "Smart glasses",
             "feature1": "Remote expert",
-            "feature1description": "Connects global workforce and enables mobile employees to get assistance from an expert remotely..",
+            "feature1description": "Connects global workforce and enables mobile employees to get assistance from an expert remotely.",
             "feature2": "Time tracking",
-            "feature2description": "Track employees working time and get the insights you need. Find and fix money leaks",
+            "feature2description": "Track employees working time and get the insights you need. Find and fix money leaks.",
             "feature3": "Location tracking",
-            "feature3description": "Automated work tracking based on custom locations and employees routes with help of Inpres app",
+            "feature3description": "Automated work tracking based on custom locations and employees routes with help of Inpres app.",
             "feature4": "Online timesheet",
             "feature4description": "Track active and idle time per mobile employee and get rid of bottlenecks in your workflow.",
             "feature5": "Client service control",
@@ -90,7 +90,7 @@
             "industry4": "Oil&gas",
             "industry5": "Manufacturing",
             "industry6": "Cleaning",
-            "industry7": "Other",
+            "industry7": "Oi",
             "contact": "Contact",
             "trial": "Free 14-day trial",
             "signin": "Sing In"
@@ -113,10 +113,10 @@
             }
         },
         "home": {
-            "background1": "/images/family_big.png",
-            "title1": "Assistance and monitoring of mobile employees",
-            "description1": "Inpres helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Inpres mobile app",
-
+            "main": {
+                "title" :  "Assistance and monitoring of mobile employees",
+                "description" :  "Inpres helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Inpres mobile app"
+            },
             "features":{
                 "title": "Key features",
                 "description": "Inpres provide you comlex service for assistance and controlling mobile employees"
@@ -128,7 +128,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to ther smartphone",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
                 "step3": "Increase efficiency",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -140,8 +140,8 @@
                 "oilgas": "Oil&Gas",
                 "courier": "Courier",
                 "landscaping": "Landscaping",
-                "constructing": "Constucting",
-                "other": "Other"
+                "constructing": "Constructing",
+                "oi": "Oi"
             }
         },
         "timetracking": {
@@ -156,8 +156,8 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to ther smartphone",
-                "step3": "Track emplyees worktime",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
+                "step3": "Track employees work time",
                 "step3Description": "You can track employees working time and activity with help of Inpres analytics portal"
             },
             "benefitsRow": {
@@ -169,9 +169,9 @@
             "effect": {
                 "title": "Track and improve employee KPIs",
                 "description": "Inpres automatically measure different types of employees performance indicators. Our system compares indicators between workers and give you insights how to improve the perforformance, find and fix money leaks. Indicators we track:",
-                "effect1": "Employees total worktime",
+                "effect1": "Employees total work time",
                 "effect2": "Workload share",
-                "effect3": "Location heatmap and routes",
+                "effect3": "Location heat map and routes",
                 "effect4": "FPV screenshots with connection to location",
                 "effect5": "Locations visited",
                 "effect6": "Tags (QR codes) scaned",
@@ -184,14 +184,14 @@
             }
         },
         "remoteExpert": {
-            "title" : "Inpes smart glasses and mobile app enabling remote assistance to support your frontline workers with real-time feedback and information from a distant expert.",
+            "title" : "Inpres smart glasses and mobile app enabling remote assistance to support your frontline workers with real-time feedback and information from a distant expert",
             "howItWork": {
                 "title": "How remote expert solution works",
                 "description": "Remote expert is a software solution based on smart glasses connected to employees smartphone to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to ther smartphone",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
                 "step3": "Assist your employee",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -214,7 +214,7 @@
             "commonDescription": {
                 "title": "REMOTE EXPERT GUIDANCE",
                 "description": "Frontline Workers can easily connect with remote experts in real-time, from anywhere, using optimized video collaboration applications",
-                "detailed": "Organizations are facing evolving challenges when connecting remote teams with the critical information whenever they need it. The peer-to-peer information must be accurate, shared with a distributed workforce, secure and often delivered in real-time. Meanwhile, travel restrictions, globally dispersed stakeholders and different company regulations augment the growing logistical obstacles for remote expert guidance for businesses with frontline workers. These challenges impact many of today’s remote teams. Frontline workers who are often in the most hazardous environments need to safely and efficiently connect with remote experts, other team members as well as partners and clients — sometimes in different cities, time-zones and countries. Whether it’s training, equipment repair, data analysis or other mission-critical tasks, these remote teams require a truly innovative remote collaboration and expert guidance solution that’s built for modern businesses."
+                "detailed": "Organisations are facing evolving challenges when connecting remote teams with the critical information whenever they need it. The peer-to-peer information must be accurate, shared with a distributed workforce, secure and often delivered in real-time. Meanwhile, travel restrictions, globally dispersed stakeholders and different company regulations augment the growing logistical obstacles for remote expert guidance for businesses with frontline workers. These challenges impact many of today’s remote teams. Frontline workers who are often in the most hazardous environments need to safely and efficiently connect with remote experts, oi team members as well as partners and clients — sometimes in different cities, time-zones and countries. Whei it’s training, equipment repair, data analysis or oi mission-critical tasks, these remote teams require a truly innovative remote collaboration and expert guidance solution that’s built for modern businesses."
             },
             "effect": {
                 "title": "Benefits of remote assistance with smart glasses",
@@ -249,7 +249,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to ther smartphone",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to i smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -263,17 +263,17 @@
             },
             "heatmap":
             {
-                "title": "Get your employees heatmap",
-                "description": "We generates for you heatmap of each employee. You can filter dates and employees, zoom the data on map or export it."
+                "title": "Get your employees heat map",
+                "description": "We generates for you heat map of each employee. You can filter dates and employees, zoom the data on map or export it."
             },
             "alerts":
             {
                 "title": "Get alerts based on employees",
-                "description": "Inpres can track workers outdoor (based on GPS) and indoor (based on QR code tags) location. You can define the alerts you want to reseive based on user location.",
+                "description": "Inpres can track workers outdoor (based on GPS) and indoor (based on QR code tags) location. You can define the alerts you want to receive based on user location.",
                 "bullit1": "Outdoor location enter",
                 "bullit2": "Outdoor location exit",
                 "bullit3": "Both",
-                "bullit4": "Indoor location enter (QR code scaned)"
+                "bullit4": "Indoor location enter (QR code scanned)"
             }
         },
         "onlineTimesheet": {
@@ -287,14 +287,14 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to ther smartphone",
+                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
             "alerts":
             {
                 "title": "Get automatic alerts",
-                "description": "Inpres serivce generates differnt types of alerts based on employees events.",
+                "description": "Inpres service generates differnt types of alerts based on employees events.",
                 "bullit1": "Workday start/finish",
                 "bullit2": "Call start/end",
                 "bullit3": "Location enter/exit",
@@ -309,7 +309,7 @@
             "advantages":
             {
                 "title": "Client service insights",
-                "description": "Inpres automatically recognizes client emotions without storing any client sensetive data. It follows GDPR roules and do now recognize and persolize faces, it only tracks the emotions. Thies feature can help you:",
+                "description": "Inpres automatically recognize client emotions without storing any client sensitive data. It follows GDPR rules and do now recognize and personalize faces, it only tracks the emotions. This feature can help you:",
                 "bullit1": "Measure client service with objective data",
                 "bullit2": "Compare employees by client service level",
                 "bullit3": "Get insights to impove client satisfaction"
@@ -323,7 +323,7 @@
             "advantages":
             {
                 "title": "Get alerts on employees events",
-                "description": "Track employees rotus with FPV screenshots",
+                "description": "Track employees routes with FPV screenshots",
                 "bullit1": "Workday enter/exit",
                 "bullit2": "Call start/end",
                 "bullit3": "Location enter/exit",
@@ -335,14 +335,14 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Generate the tags",
-                "step2Description": "Create QR code tags you want to track with Inpres service. Pring them and place them to places or goods you want to track. For tracking tags mobile workers need to wear Inpres smart glasses, connected to ther smartphone",
+                "step2Description": "Create QR code tags you want to track with Inpres service. Pricing them and place them to places or goods you want to track. For tracking tags mobile workers need to wear Inpres smart glasses, connected to their smartphone",
                 "step3": "Use tags tracking software to generate reports",
                 "step3Description": "Managers can use tags tracking reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
             "useCases":
             {
                 "title": "Use cases",
-                "description": "Track employees rotus with FPV screenshots",
+                "description": "Track employees routes with FPV screenshots",
                 "benefit1" : "Indoor location control",
                 "benefit1description" : "Create a job site on the map and each team member will be automatically clocked in and out when they enter the area.",
                 "benefit2" : "Pick-By-Vision",
@@ -359,18 +359,23 @@
         },
         "smartGlasses": {
             "gallery": {
-                "price": "200",
+                "price": "149",
                 "productName": "Inpres Smart glasses",
-                "description" : "Device can be connected to any android smartphone with USB Type-C connector",
-                "bullit1" : "Can be vear on head, cap or helmet",
-                "bullit2" : "25 times cheaper than AR glasses",
-                "bullit3" : "Compatible with different Android smartphones",
+                "description" : "Device can be connected to any android smartphone with USB Type-C connector. Can be wear on head, cap or helmet",
+                "feature1" : "2mp Camera",
+                "feature2" : "USB-C connection",
+                "feature3" : "70g weight",
+                "feature4" : "120° camera angle",
+                "feature5" : "1m cable",
+                "feature6" : "Low power consumption",
+                "feature7" : "Compatible with popular Android smartphones",
+                "feature8" : "25 times cheaper than AR glasses",
                 "button" : "Buy"
             },
             "features":{
                 "title" : "Inpres Smart glasses",
                 "description" : "Device can be connected to any android smartphone with USB Type-C connector ",
-                "feature1" : "1mp Camera",
+                "feature1" : "2mp Camera",
                 "feature2" : "USB-C connection",
                 "feature3" : "70g weight",
                 "feature4" : "120° camera angle",
@@ -438,7 +443,7 @@
             "send_message": "Send request",
             "your_message": "Request",
             "about_us_header": "About us",
-            "about_us_description": "inpres is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
+            "about_us_description": "Inpres is a IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         }
     }
 }

@@ -15,8 +15,8 @@ class SmartGlassesDescription extends Component {
     this.state = {
       keyfeatures: [
         { icon: "camera", title: i18next.t('smartGlasses.features.feature1') },
-        { icon: "wifi", title: i18next.t('smartGlasses.features.feature2') },
-        { icon: "eye", title: i18next.t('smartGlasses.features.feature3') },
+        { icon: "settings", title: i18next.t('smartGlasses.features.feature2') },
+        { icon: "box", title: i18next.t('smartGlasses.features.feature3') },
         { icon: "video", title: i18next.t('smartGlasses.features.feature4')},
         { icon: "cpu", title: i18next.t('smartGlasses.features.feature5')},
         { icon: "battery", title: i18next.t('smartGlasses.features.feature6')}
@@ -43,7 +43,6 @@ class SmartGlassesDescription extends Component {
               title={i18next.t('smartGlasses.features.title')}
               desc={i18next.t('smartGlasses.features.description')}
             />
-
             <Row>
               <KeyFeatureBox keyfeatures={this.state.keyfeatures} />
             </Row>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import saas1 from "../../assets/images/saas/classic02.png";
+import img from "../../assets/images/screenshot_dashboard.png";
 import SectionTitleLeft from "../Shared/SectionTitleLeft";
 import i18next from 'i18next';
 
@@ -32,7 +32,7 @@ class ClientServiceAdvantages extends Component {
               </div>
             </Col>
             <Col lg={6} md={6}>
-              <img src={saas1} className="img-fluid shadow rounded" alt="" />
+              <img src={img} className="img-fluid shadow rounded" alt="" />
             </Col>
           </Row>
         </Container>

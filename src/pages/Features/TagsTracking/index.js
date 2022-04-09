@@ -9,7 +9,7 @@ import TagsTrackingHowItWork from "../../../components/SharedElements/TagsTracki
 import OnlineTimesheetAlerts from "../../../components/SharedElements/OnlineTimesheetAlerts"
 import TagsTrackingUseCases from "../../../components/SharedElements/TagsTrackingUseCases"
 import Trial2 from "../../../components/SharedElements/Trial2"
-import img from "../../../assets/images/city_banner.png";
+import img from "../../../assets/images/worker_banner.png";
 import CustomHelmet from "../../../components/Service/CustomHelmet";
 import i18next from 'i18next';
 

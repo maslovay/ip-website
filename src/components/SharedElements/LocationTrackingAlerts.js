@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import saas1 from "../../assets/images/saas/classic02.png";
+import img from "../../assets/images/screenshot_alerts.png";
 import SectionTitleLeft from "../Shared/SectionTitleLeft";
 import i18next from 'i18next';
 
@@ -22,7 +22,7 @@ class LocationTrackingAlerts extends Component {
         <Container className="mt-100 mt-60">
           <Row className="align-items-center">
             <Col lg={6} md={6}>
-              <img src={saas1} className="img-fluid shadow rounded" alt="" />
+              <img src={img} className="img-fluid shadow rounded" alt="" />
             </Col>
             <Col lg={6} md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
               <div className="section-title ms-lg-5">

@@ -13,19 +13,19 @@ class TagsTrackingUseCases extends Component {
       features: [
         {
           id: 1,
-          icon: 'uil uil-edit-alt h1 text-primary',
+          icon: 'uil uil-tag-alt h1 text-primary',
           title: i18next.t('tagsTracking.useCases.benefit1'),
           description: i18next.t('tagsTracking.useCases.benefit1description'),
         },
         {
           id: 2,
-          icon: 'uil uil-vector-square h1 text-primary',
+          icon: 'uil uil-eye h1 text-primary',
           title: i18next.t('tagsTracking.useCases.benefit2'),
           description: i18next.t('tagsTracking.useCases.benefit2description'),
         },
         {
           id: 3,
-          icon: 'uil uil-file-search-alt h1 text-primary',
+          icon: 'uil uil-lock-alt h1 text-primary',
           title: i18next.t('tagsTracking.useCases.benefit3'),
           description: i18next.t('tagsTracking.useCases.benefit3description'),
         }

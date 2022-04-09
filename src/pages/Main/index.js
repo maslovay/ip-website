@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import AOS from "aos";
-
-import img1 from "../../assets/images/app/main_screen.png";
-import img2 from "../../assets/images/app/devices2.png";
+import img from "../../assets/images/worker_banner.png";
 
 import MainHowItWork from "../../components/SharedElements/MainHowItWork";
 import MainIndustries from '../../components/SharedElements/MainIndustries'
@@ -24,7 +22,7 @@ class Main extends Component {
 
   componentDidMount() {
     AOS.refresh();
-    document.getElementById("top-menu").classList.add("nav-dark");
+    document.getElementById("top-menu").classList.add("nav-light");
     document.body.classList = "";
     window.addEventListener("scroll", this.scrollNavigation, true);
   }
@@ -48,39 +46,27 @@ class Main extends Component {
       <React.Fragment>
         <CustomHelmet name="main" />
         <section
-          className="bg-half-170 d-table w-100 overflow-hidden"
-          id="home"
+          className="bg-half-170 d-table w-100"
+          style={{ background: `url("${img}") center center` }}
+
         >
+          <div className="bg-overlay"></div>
           <Container>
             <Row className="align-items-center">
-              <Col lg="7" md="7">
+              <Col lg={7} md={6}>
                 <div className="title-heading mt-4">
-                  <h1 className="heading mb-3">
-                    {i18next.t('home.title1')}
-                  </h1>
-                  <p className="para-desc text-muted">
-                    {i18next.t('home.description1')}
+                  <h2 className="display-5 font-weight-bold text-white title-dark mb-3">
+                    {i18next.t('home.main.title')}
+                  </h2>
+                  <p className="para-desc text-light">
+                    {i18next.t('home.main.description')}
                   </p>
-                </div>
-              </Col>
-
-              <Col lg="5" md="5" className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-                <div className="classic-app-image position-relative">
-                  <div className="bg-app-shape position-relative">
-                    <img
-                      src={img1}
-                      className="img-fluid mover mx-auto d-block "
-                      alt=""
-                    />
-                  </div>
-                  <div className="app-images d-none d-md-block">
-                    <img src={img2} className="img-fluid" alt="" />
-                  </div>
                 </div>
               </Col>
             </Row>
           </Container>
-          </section> 
+          </section>
+          <br/><br/>
           <MainFeatures /> 
           <MainHowItWork />
           <MainIndustries />
