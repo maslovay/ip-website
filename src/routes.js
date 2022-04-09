@@ -33,6 +33,8 @@ const routes = [
   { path: "/inpres-glasses", component: Glasses },
 
   { path: "/pricing", component: Pricing }
+
+  
 ];
 
 export default routes;

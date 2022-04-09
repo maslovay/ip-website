@@ -11,13 +11,9 @@ export default (
           <Route exact path='/features/online-timesheet' ></Route>
           <Route exact path='/features/tags-tracking' ></Route>
           <Route exact path='/features/time-tracking' ></Route>
-          <Route exact path='/industries/constructing' ></Route>
-          <Route exact path='/industries/courier' ></Route>
-          <Route exact path='/industries/landscaping' ></Route>
-          <Route exact path='/industries/manufacturing' ></Route>
-          <Route exact path='/industries/cleaning' ></Route>
-          <Route exact path='/industries/other-industries' ></Route>
-          <Route exact path='/industries/oil-gas' ></Route>
+          <Route exact path='/glasses' ></Route>
           <Route exact path='/pricing' ></Route>
+          <Route exact path='/page-error' ></Route>
+          <Route exact path='/industries/inpres-industries' ></Route>
     </Route>
 );
