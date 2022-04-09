@@ -117,6 +117,7 @@
                 "title" :  "Assistance and monitoring of mobile employees",
                 "description" :  "Inpres helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Inpres mobile app"
             },
+            
             "features":{
                 "title": "Key features",
                 "description": "Inpres provide you comlex service for assistance and controlling mobile employees"
@@ -128,7 +129,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Increase efficiency",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -156,7 +157,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Track employees work time",
                 "step3Description": "You can track employees working time and activity with help of Inpres analytics portal"
             },
@@ -168,13 +169,13 @@
             },
             "effect": {
                 "title": "Track and improve employee KPIs",
-                "description": "Inpres automatically measure different types of employees performance indicators. Our system compares indicators between workers and give you insights how to improve the perforformance, find and fix money leaks. Indicators we track:",
+                "description": "Inpres automatically measure different types of employees performance indicators. Service compares indicators between workers and give you insights how to improve the perforformance, find and fix money leaks. Indicators Inpres track:",
                 "effect1": "Employees total work time",
                 "effect2": "Workload share",
                 "effect3": "Location heat map and routes",
                 "effect4": "FPV screenshots with connection to location",
                 "effect5": "Locations visited",
-                "effect6": "Tags (QR codes) scaned",
+                "effect6": "Scaned tags (QR codes)",
                 "effect7": "Time on video calls",
                 "effect8": "Positive emotions of people met"
             },
@@ -191,7 +192,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Assist your employee",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -207,7 +208,7 @@
                 "benefit4": "Encrypted data",
                 "benefit4description": "We use Transport Layer Security (TLS 1.2) encryption for all transmitted data.",
                 "benefit5": "Cloud based or on-premises",
-                "benefit5description": "System Integration. Easily integrated in your system: CRM, ERP, CMMS, Salesforce",
+                "benefit5description": "The Inpres service can run in the cloud or in the company's infrastructure",
                 "benefit6": "Low traffic",
                 "benefit6description": "Per-to-per connection with end-to-end encryption WebRTC"
             },
@@ -268,7 +269,7 @@
             },
             "alerts":
             {
-                "title": "Get alerts based on employees",
+                "title": "Keep track of important notifications",
                 "description": "Inpres can track workers outdoor (based on GPS) and indoor (based on QR code tags) location. You can define the alerts you want to receive based on user location.",
                 "bullit1": "Outdoor location enter",
                 "bullit2": "Outdoor location exit",
@@ -287,7 +288,7 @@
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -330,7 +331,7 @@
                 "bullit4": "QR code reading"
             },
             "howItWork": {
-                "title": "How remote tags tracking solution works",
+                "title": "Hoц tags tracking solution works",
                 "description": "Tags is a software solution based on smart glasses, smartphones to scan QR codes with first person view Inpres camera.",
                 "step1": "Register and install app",
                 "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
