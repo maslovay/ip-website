@@ -1,13 +1,7 @@
 {
-    "responseOverrides": {
-      "400": {
-        "rewrite": "/page-error"
-      },
-      "403": {
-        "rewrite": "/page-error"
-      },
-      "404": {
-        "rewrite": "/page-error"
-      }
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/page-error"
     }
+  }
 }
