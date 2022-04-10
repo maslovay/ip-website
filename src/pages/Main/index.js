@@ -71,7 +71,7 @@ class Main extends Component {
           <MainHowItWork />
           <MainIndustries />
           <Trial2 /> 
-        
+          <a href="/page-error"></a>
       </React.Fragment>
     );
   }

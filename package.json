@@ -2,6 +2,7 @@
   "name": "Inpres",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://inpres.com",
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.5",
     "aos": "^2.3.4",
@@ -9,6 +10,7 @@
     "axios": "^0.24.0",
     "bootstrap": "^4.5.3",
     "feather-icons-react": "^0.4.1",
+    "gatsby": "^4.11.2",
     "i18next": "^20.2.2",
     "i18next-browser-languagedetector": "^6.1.0",
     "i18next-xhr-backend": "^3.2.2",
