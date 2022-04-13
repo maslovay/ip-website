@@ -86,11 +86,13 @@
             "feature6description": "Hands free automatic QR code tags scanning with help of Inpres smart glasses.",
             "industry1": "Constructing",
             "industry2": "Landscaping",
-            "industry3": "Courier",
+            "industry3": "Delivery",
             "industry4": "Oil&gas",
             "industry5": "Manufacturing",
             "industry6": "Cleaning",
-            "industry7": "Oi",
+            "industry7": "Technician",
+            "industry8": "Security",
+            "industry9": "Healthcare",
             "contact": "Contact",
             "trial": "Free 14-day trial",
             "signin": "Sing In"
@@ -139,10 +141,15 @@
                 "description": "Inpres service will increase the employees efficience, find and fix money leaks in different areas",
                 "manufactoring": "Manufactoring",
                 "oilgas": "Oil&Gas",
-                "courier": "Courier",
                 "landscaping": "Landscaping",
                 "constructing": "Constructing",
-                "other": "Other"
+                "other": "Other",
+                "delivery": "Delivery",
+                "cleaning": "Cleaning",
+                "technician": "Technician",
+                "security": "Security",
+                "healthcare": "Healthcare",
+                "transportation": "Transportation"
             }
         },
         "timetracking": {
@@ -223,10 +230,9 @@
                 "effect0": "Increased quality of work",
                 "effect1": "Share knowledge and expertise in real-time to solve complex problems faster and more efficiently",
                 "effect2": "Reduce downtime or accelerate startup time of large capital equipment sites",
-                "effect3": "Faster intervention by eliminating travel time of expensive expert",
-                "effect4": "Cheaper intervention by eliminating travel costs",
-                "effect5": "Share experience on the work floor in an intuitive way among operators and field staff",
-                "effect6": "Continue operations in difficult to reach areas (conflict zones, Covid-19 quarantine areas countries with long VISA procedures, etc.)"
+                "effect3": "Faster and cheaper intervention by eliminating travel time of expensive expert",
+                "effect4": "Make training teams easy. Share experience on the work floor in an intuitive way among operators and field staff",
+                "effect5": "Continue operations in difficult to reach areas (conflict zones, Covid-19 quarantine areas countries with long VISA procedures, etc.)"
             }
         },
         "locationtracking": {

@@ -36,9 +36,7 @@ class MainIndustries extends Component {
                     strokeLinecap="round" 
                     strokeLinejoin="round" 
                     className="feather feather-bold fea icon-ex-md text-primary">
-                      <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                      <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                      <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline>
                   </svg>
                   </div>
                   <Media body style={{paddingLeft: "20px"}}>
@@ -123,7 +121,7 @@ class MainIndustries extends Component {
                   </svg>
                   </div>
                   <Media body style={{paddingLeft: "20px"}}>
-                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.courier')}</h4>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.delivery')}</h4>
                   </Media>
                 </div>
               {/* </a> */}
@@ -144,13 +142,11 @@ class MainIndustries extends Component {
                     strokeLinecap="round" 
                     strokeinejoin="round" 
                     className="feather feather-git-merge fea icon-ex-md text-primary">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <line x1="2" y1="12" x2="22" y2="12"></line>
-                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                     <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line>
                   </svg>
                   </div>
                   <Media body style={{paddingLeft: "20px"}}>
-                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.landscaping')}</h4>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.technician')}</h4>
                   </Media>
                 </div>
               {/* </a> */}
@@ -171,12 +167,86 @@ class MainIndustries extends Component {
                     strokeLinecap="round" 
                     strokeLinejoin="round" 
                     className="feather feather-git-merge fea icon-ex-md text-primary">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                      <circle cx="12" cy="10" r="3"></circle>
+                      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                   </svg>
                   </div>
                   <Media body style={{paddingLeft: "20px"}}>
-                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.other')}</h4>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.healthcare')}</h4>
+                  </Media>
+                </div>
+                {/* </a> */}
+              </Col>
+
+              <Col lg={4} md={6} className="mt-4 pt-2">
+              {/* <a href="/industries/other"> */}
+                <div className="d-flex key-feature align-items-center p-3 rounded shadow">
+                  <div className="icon text-center rounded-circle me-3">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className="feather feather-git-merge fea icon-ex-md text-primary">
+                      <rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle>
+                  </svg>
+                  </div>
+                  <Media body style={{paddingLeft: "20px"}}>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.transportation')}</h4>
+                  </Media>
+                </div>
+                {/* </a> */}
+              </Col>
+
+              <Col lg={4} md={6} className="mt-4 pt-2">
+              {/* <a href="/industries/other"> */}
+                <div className="d-flex key-feature align-items-center p-3 rounded shadow">
+                  <div className="icon text-center rounded-circle me-3">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className="feather feather-git-merge fea icon-ex-md text-primary">
+                      <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line>
+                  </svg>
+                  </div>
+                  <Media body style={{paddingLeft: "20px"}}>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.landscaping')}</h4>
+                  </Media>
+                </div>
+                {/* </a> */}
+              </Col>
+
+              <Col lg={4} md={6} className="mt-4 pt-2">
+              {/* <a href="/industries/other"> */}
+                <div className="d-flex key-feature align-items-center p-3 rounded shadow">
+                  <div className="icon text-center rounded-circle me-3">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24" 
+                    height="24" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round" 
+                    className="feather feather-git-merge fea icon-ex-md text-primary">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                  </div>
+                  <Media body style={{paddingLeft: "20px"}}>
+                    <h4 className="title mb-0" style={{color: "#000000"}}>{i18next.t('home.industries.security')}</h4>
                   </Media>
                 </div>
                 {/* </a> */}
