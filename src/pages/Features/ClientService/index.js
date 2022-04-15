@@ -4,8 +4,8 @@ import "../../../../node_modules/react-modal-video/scss/modal-video.scss";
 import Trial from "../../../components/SharedElements/Trial";
 import ClientServiceAdvantages from "../../../components/SharedElements/ClientServiceAdvantages";
 import Header from "./Header";
-import CustomHelmet from "../../../components/Service/CustomHelmet";
 
+import CustomHelmet from "../../../components/Service/CustomHelmet";
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-PSG8RPDW3G');
 ReactGA.pageview(window.location.pathname + window.location.search);
