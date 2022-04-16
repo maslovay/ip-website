@@ -3,20 +3,20 @@
         "pageData": {
             "appName": "Inpres",
             "main":{
-                "main": "assistance and monitoring for mobile employees",
-                "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
+                "main": "assistance and monitoring for field employees",
+                "description" : "Service for assistance and monitoring for field employees with the help of smart glasses and mobile application",
                 "keywords" :"inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
                 "image" : "/remote_expert_inpres.jpeg"
             },
             "pricing": {
                 "main": "pricing plans",
-                "description" : "Service for assistance and monitoring for mobile employees with the help of smart glasses and mobile application",
+                "description" : "Service for assistance and monitoring for field employees with the help of smart glasses and mobile application",
                 "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
                 "image" : "/remote_expert_inpres.jpeg"
             },
             "glasses": {
                 "main": "smart glasses",
-                "description" : "Wearable smart glasses for mobile workers that do not interfere with work and help to do it more efficiently",
+                "description" : "Wearable smart glasses for field workers that do not interfere with work and help to do it more efficiently",
                 "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
                 "image" : "/remote_expert_inpres.jpeg"
             },
@@ -34,13 +34,13 @@
             },
             "onlineTimesheet": {
                 "main": "online timesheets",
-                "description" : "Track active and idle time per mobile employee and get rid of bottlenecks in your workflow.",
+                "description" : "Track active and idle time per field employee and get rid of bottlenecks in your workflow.",
                 "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
                 "image" : "/remote_expert_inpres.jpeg"
             },
             "remoteExpert":{
                 "main": "remote expert",
-                "description" : "Connects global workforce and enables mobile employees to get assistance from an expert remotely.",
+                "description" : "Connects global workforce and enables field employees to get assistance from an expert remotely.",
                 "keywords" : "inpres, remote expert, employee monitoring, employee assistance, time tracking, location tracking, smart glasses, mobile app for employee control, glasses with camera",
                 "image" : "/remote_expert_inpres.jpeg"
             },
@@ -83,13 +83,13 @@
             "pricing": "Pricing",
             "glasses": "Smart glasses",
             "feature1": "Remote expert",
-            "feature1description": "Connects global workforce and enables mobile employees to get assistance from an expert remotely.",
+            "feature1description": "Connects global workforce and enables field employees to get assistance from an expert remotely.",
             "feature2": "Time tracking",
             "feature2description": "Track employees working time and get the insights you need. Find and fix money leaks.",
             "feature3": "Location tracking",
             "feature3description": "Automated work tracking based on custom locations and employees routes with help of Inpres app.",
             "feature4": "Online timesheet",
-            "feature4description": "Track active and idle time per mobile employee and get rid of bottlenecks in your workflow.",
+            "feature4description": "Track active and idle time per field employee and get rid of bottlenecks in your workflow.",
             "feature5": "Client service control",
             "feature5description": "Automatic AI client emotion recognition with Inpres smart glasses and mobile app.",
             "feature6": "Tags tracking",
@@ -126,22 +126,22 @@
         },
         "home": {
             "main": {
-                "title" :  "Assistance and monitoring of mobile employees",
-                "description" :  "Inpres helps track the work and performance of mobile workers with smart glasses connected to a smartphone running the Inpres mobile app"
+                "title" :  "Assistance and monitoring of field employees",
+                "description" :  "Inpres helps track the work and performance of field workers with smart glasses connected to a smartphone running the Inpres mobile app"
             },
             
             "features":{
                 "title": "Key features",
-                "description": "Inpres provide you comlex service for assistance and controlling mobile employees"
+                "description": "Inpres provide you comlex service for assistance and controlling field employees"
             },
 
             "howItWork": {
                 "title": "How Inpres works",
                 "description": "Remote expert is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track field workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Increase efficiency",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -172,9 +172,9 @@
                 "title": "How time tracking solution works",
                 "description": "Time tracking is a software solution based on smart glasses connected to employees smartphone. It collects data in background and give you analytics in real time",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track field workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Track employees work time",
                 "step3Description": "You can track employees working time and activity with help of Inpres analytics portal"
             },
@@ -207,9 +207,9 @@
                 "title": "How remote expert solution works",
                 "description": "Remote expert is a software solution based on smart glasses connected to employees smartphone to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track field workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Assist your employee",
                 "step3Description": "You can call your employees with FPV video or track their activity with help of Inpres analytics portal"
             },
@@ -264,9 +264,9 @@
                 "title": "How location tracking solution works",
                 "description": "Location tracking is a software solution based on smart glasses, smartphones, tablets and PCs to share information between on-site operators and support departments. It effectively assists users executing difficult tasks and operation maintenance, having real-time data at hand, while keeping a close look at the remote situation.",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "For assistance and tracking of mobile workers they need to wear Inpres smart glasses, connected to i smartphone",
+                "step2Description": "For assistance and tracking of field workers they need to wear Inpres smart glasses, connected to i smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -302,9 +302,9 @@
                 "title": "How location tracking solution works",
                 "description": "Inpres online timesheets are automatically created based on  Inpres app data.",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Buy smart glasses",
-                "step2Description": "To assist and track mobile workers, they need to wear Inpres smart glasses connected to their smartphone",
+                "step2Description": "To assist and track field workers, they need to wear Inpres smart glasses connected to their smartphone",
                 "step3": "Use time tracking software to generate time reports",
                 "step3Description": "Managers can create time reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -350,9 +350,9 @@
                 "title": "Hoц tags tracking solution works",
                 "description": "Tags is a software solution based on smart glasses, smartphones to scan QR codes with first person view Inpres camera.",
                 "step1": "Register and install app",
-                "step1Description": "Please create your company account with 14-days free trial and install Android app for mobile workers for free",
+                "step1Description": "Please create your company account with 14-days free trial and install Android app for field workers for free",
                 "step2": "Generate the tags",
-                "step2Description": "Create QR code tags you want to track with Inpres service. Pricing them and place them to places or goods you want to track. For tracking tags mobile workers need to wear Inpres smart glasses, connected to their smartphone",
+                "step2Description": "Create QR code tags you want to track with Inpres service. Pricing them and place them to places or goods you want to track. For tracking tags field workers need to wear Inpres smart glasses, connected to their smartphone",
                 "step3": "Use tags tracking software to generate reports",
                 "step3Description": "Managers can use tags tracking reports that will allow them to learn more about how employees spend their working time. You can then use this information to create better estimates, streamline your workflow, and get projects done on time."
             },
@@ -370,7 +370,7 @@
         },
         "commonIndustries":{
             "main":{
-                "title": "We can help improve the efficiency of mobile workers in different areas",
+                "title": "We can help improve the efficiency of field workers in different areas",
                 "description" : ""
             }
         },
@@ -441,10 +441,10 @@
             "about_us_header": "About us",
             "about_us_description": "inpres is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         },
-        "mobileapp": {
+        "fieldapp": {
             "main": {
                 "title" : "Inpres mobile application",
-                "description" : "Android application for mobile workers. Please install it before start using Inpres service.",
+                "description" : "Android application for field workers. Please install it before start using Inpres service.",
                 "feature1" : "Secure",
                 "feature2" : "Lightweight",
                 "feature3" : "Compatible with different smartphones",
