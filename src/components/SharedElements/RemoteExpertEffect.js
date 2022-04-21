@@ -10,8 +10,7 @@ class RemoteExpertEffect extends Component {
       { title: i18next.t('remoteExpert.effect.effect1')},
       { title: i18next.t('remoteExpert.effect.effect2')},
       { title: i18next.t('remoteExpert.effect.effect3')},
-      { title: i18next.t('remoteExpert.effect.effect4')},
-      { title: i18next.t('remoteExpert.effect.effect5')}
+      { title: i18next.t('remoteExpert.effect.effect4')}
     ]
   };
 

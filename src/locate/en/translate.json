@@ -127,7 +127,7 @@
         "home": {
             "main": {
                 "title" :  "Assistance and monitoring of field employees",
-                "description" :  "Inpres helps track the work and performance of field workers with smart glasses connected to a smartphone running the Inpres mobile app"
+                "description" :  "We help to track the work and performance of field workers with smart glasses connected to a smartphone running the Inpres mobile app"
             },
             
             "features":{
@@ -238,11 +238,10 @@
                 "title": "Benefits of remote assistance with smart glasses",
                 "description": "Smart glasses enabling 'See-What-I-See' (SWIS) and remote assistance provide video-conferencing capabilities that allow everyone in the call to see what the smart glasses wearer is seeing, from his or her point of view. This introduces a totally new way of collaborating and solving problems.",
                 "effect0": "Increased quality of work",
-                "effect1": "Share knowledge and expertise in real-time to solve complex problems faster and more efficiently",
+                "effect1": "Share knowledge and expertise in real-time to solve complex problems faster and more efficiently. Make training teams easy.",
                 "effect2": "Reduce downtime or accelerate startup time of large capital equipment sites",
                 "effect3": "Faster and cheaper intervention by eliminating travel time of expensive expert",
-                "effect4": "Make training teams easy. Share experience on the work floor in an intuitive way among operators and field staff",
-                "effect5": "Continue operations in difficult to reach areas (conflict zones, Covid-19 quarantine areas countries with long VISA procedures, etc.)"
+                "effect4": "Continue operations in difficult to reach areas (conflict zones, Covid-19 quarantine areas countries with long VISA procedures, etc.)"
             }
         },
         "locationtracking": {
@@ -441,14 +440,15 @@
             "about_us_header": "About us",
             "about_us_description": "inpres is a Russian IT company specializing in the development and implementation of innovative technologies in the field of separate waste collection and ecology"
         },
-        "fieldapp": {
+        "mobileapp": {
             "main": {
                 "title" : "Inpres mobile application",
                 "description" : "Android application for field workers. Please install it before start using Inpres service.",
                 "feature1" : "Secure",
-                "feature2" : "Lightweight",
+                "feature2" : "Work on background, employee can use other features of phone",
                 "feature3" : "Compatible with different smartphones",
-                "feature4" : "Android 10+"
+                "feature4" : "Android 10+",
+                "feature5" : "Low data traffic"
             },
             "contact_us": "Contact Us:",
             "send_succesfully": "Successfully sent",

@@ -38,6 +38,7 @@ class Index extends Component {
         <SmartGlassesGallery />
         <MobileAppShowCase /> 
         <RemoteExpertEffect />
+        <br/><br/>
       </React.Fragment>
     );
   }

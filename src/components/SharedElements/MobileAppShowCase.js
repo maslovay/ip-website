@@ -15,6 +15,8 @@ class MobileAppShowCase extends Component {
         { title: i18next.t('mobileapp.main.feature1') },
         { title: i18next.t('mobileapp.main.feature2') },
         { title: i18next.t('mobileapp.main.feature3') },
+        { title: i18next.t('mobileapp.main.feature4') },
+        { title: i18next.t('mobileapp.main.feature5') }
       ]
     };
     this.toggle = this.toggle.bind(this);
