@@ -7,6 +7,8 @@ import MainHowItWork from "../../components/SharedElements/MainHowItWork";
 import MainIndustries from '../../components/SharedElements/MainIndustries'
 import MainFeatures from '../../components/SharedElements/MainFeatures'
 import Trial2 from '../../components/SharedElements/Trial2'
+import ModalVideoSection from '../../components/SharedElements/ModalVideo'
+
 
 import CustomHelmet from "../../components/Service/CustomHelmet";
 import i18next from 'i18next';
@@ -69,6 +71,7 @@ class Main extends Component {
           <br/><br/>
           <MainFeatures /> 
           <MainHowItWork />
+          <ModalVideoSection /> 
           <MainIndustries />
           <Trial2 /> 
           <a href="/page-error"></a>

@@ -50,9 +50,9 @@ class MobileAppShowCase extends Component {
                     Find Out More <i className="uil uil-angle-right-b"></i>
                   </Link> */}
                   <div className="mt-4">
-                    <Link to="#" className="btn btn-outline-primary mt-2">
+                    <a href="https://play.google.com/store/apps/details?id=com.inpres.app" className="btn btn-outline-primary mt-2">
                       <i className="mdi mdi-google-play"></i> Play Store
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </Col>

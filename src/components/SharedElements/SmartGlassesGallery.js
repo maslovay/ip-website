@@ -10,10 +10,11 @@ import Slider from "react-slick";
 import "../../../node_modules/slick-carousel/slick/slick.css";
 import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
-import single01 from "../../assets/images/glasses/phone_with_camera_white.png";
-import single02 from "../../assets/images/glasses/glasses_2.jpeg";
-import single03 from "../../assets/images/glasses/glasses_3.jpeg";
-import single04 from "../../assets/images/glasses/glasses_3.jpeg";
+import single01 from "../../assets/images/inpres_app.jpg";
+import single02 from "../../assets/images/cam_image1.jpeg";
+import single03 from "../../assets/images/cam_image2.jpeg";
+import single04 from "../../assets/images/cam_image3.webp";
+
 
 import i18next from 'i18next';
 

@@ -26,8 +26,8 @@ class FooterWithoutMenuLightSocialOnly extends Component {
 
               <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <ul className="list-unstyled social-icon social text-sm-right mb-0">
-                {/* <li className="list-inline-item mb-0 ml-1">
-                    <a href="https://www.youtube.com/channel/UC_d8J05AN0-ThyoGfWW8S3g" className="rounded mr-1">
+                <li className="list-inline-item mb-0 ml-1">
+                    <a href="https://www.youtube.com/channel/UCwaaelea-74KkkQNloQOdJg" className="rounded mr-1">
                       <i>
                         <FeatherIcon
                           icon="youtube"
@@ -36,7 +36,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                       </i>
                     </a>
                   </li>
-                  <li className="list-inline-item mb-0 ml-1">
+                  {/* <li className="list-inline-item mb-0 ml-1">
                     <a href="https://www.instagram.com/trash_back_" className="rounded mr-1">
                       <i>
                         <FeatherIcon
