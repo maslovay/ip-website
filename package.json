@@ -56,7 +56,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -72,6 +73,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "reactSnap": {
+    "puppeteerArgs": [ 
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+       "puppeteerExecutablePath": "/opt/google/chrome/google-chrome"
   },
   "devDependencies": {
     "gulp-sass": "^4.1.0"
