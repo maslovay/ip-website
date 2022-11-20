@@ -75,11 +75,8 @@
     ]
   },
   "reactSnap": {
-    "puppeteerArgs": [ 
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ],
-       "puppeteerExecutablePath": "/opt/google/chrome/google-chrome"
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
+    "puppeteerExecutablePath": "/opt/google/chrome/google-chrome"
   },
   "devDependencies": {
     "gulp-sass": "^4.1.0"
